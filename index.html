@@ -317,10 +317,18 @@
 
     <section class="catalog">
         <h2 class="catalog-title">Наши изделия</h2>
-        <article class="catalog-item catalog-item-background-1">
+        <article class="catalog-item">
+            <picture class="catalog-item-picture">
+                <source srcset="img/shop-item-desk1.jpg" media="(min-width:1200px)">
+                <source srcset="img/shop-item-tablet1.jpg" media="(min-width: 641px)">
+                <source srcset="img/shop-item-mobile1.jpg" media="(max-width: 640px)">
+                <img class="catalog-item-picture-img" src="img/shop-item-desk1.jpg"
+                    alt="Логотип для курса Frontend-разработчик">
+            </picture>
             <div class="catalog-item-info">
                 <h3 class="catalog-item-titel">Подушки на диван</h3>
-                <p class="catalog-item-text"><a href="#" class="catalog-item-text-link">Набор из двух подушек с модными
+                <p class="catalog-item-text"><a href="#" class="catalog-item-text-link">Набор из двух подушек с
+                        модными
                         принтами. Видео о создании <span class="catalog-item-text-span">здесь.</span></a></p>
                 <div class="catalog-item-button-local">
                     <div class="catalog-item-prices">
@@ -335,7 +343,14 @@
             </div>
         </article>
 
-        <article class="catalog-item catalog-item-background-2">
+        <article class="catalog-item">
+            <picture class="catalog-item-picture">
+                <source srcset="img/shop-item-desk2.jpg" media="(min-width:1200px)">
+                <source srcset="img/shop-item-tablet2.jpg" media="(min-width: 641px)">
+                <source srcset="img/shop-item-mobile2.jpg" media="(max-width: 640px)">
+                <img class="catalog-item-picture-img" src="img/shop-item-desk1.jpg"
+                    alt="Логотип для курса Frontend-разработчик">
+            </picture>
             <div class="catalog-item-info">
                 <h3 class="catalog-item-titel">Кукла «Зайчик»</h3>
                 <p class="catalog-item-text"><a href="#" class="catalog-item-text-link">Интерьерная рукодельная кукла
@@ -354,7 +369,14 @@
             </div>
         </article>
 
-        <article class="catalog-item catalog-item-background-3">
+        <article class="catalog-item">
+            <picture class="catalog-item-picture">
+                <source srcset="img/shop-item-desk3.jpg" media="(min-width:1200px)">
+                <source srcset="img/shop-item-tablet3.jpg" media="(min-width: 641px)">
+                <source srcset="img/shop-item-mobile3.jpg" media="(max-width: 640px)">
+                <img class="catalog-item-picture-img" src="img/shop-item-desk1.jpg"
+                    alt="Логотип для курса Frontend-разработчик">
+            </picture>
             <div class="catalog-item-info">
                 <h3 class="catalog-item-titel">Шестиугольная рамка</h3>
                 <p class="catalog-item-text"><a href="#" class="catalog-item-text-link">Необычная рамка для украшения
@@ -398,7 +420,7 @@
             <form class="popup-form">
                 <div class="popup-form-how-often">
                     <label class="popup-form-how-often-lebel">
-                        <p class="popup-form-how-often-p">
+                        <p class="popup-form-how-often-text">
                             Как часто вы заходите на сайт?
                         </p>
                         <select class="popup-form-how-often-select">
@@ -411,26 +433,26 @@
                 </div>
 
                 <div class="popup-form-choice">
-                    <p class="popup-form-choice-p">
+                    <p class="popup-form-choice-text">
                         Вы подписаны на e-mail рассылку?
                     </p>
                     <div class="popup-form-radio">
                         <label class="popup-form-radio-lebel">
                             <input class="popup-form-radio-input" type="radio" name="radio-group">
-                            <span class="popup-form-radio-span">Да</span>
+                            <span class="popup-form-radio-text">Да</span>
                         </label>
                     </div>
                     <div class="popup-form-radio">
                         <label class="popup-form-radio-lebel">
                             <input class="popup-form-radio-input" type="radio" name="radio-group">
-                            <span class="popup-form-radio-span">Нет</span>
+                            <span class="popup-form-radio-text">Нет</span>
                         </label>
                     </div>
                 </div>
 
                 <div class="popup-form-feedback">
                     <label class="popup-form-feedback-lebel">
-                        <p class="popup-form-feedback-p">
+                        <p class="popup-form-feedback-text">
                             Расскажите, какой контент вы хотели бы видеть
                             на нашем сайте?
                         </p>
