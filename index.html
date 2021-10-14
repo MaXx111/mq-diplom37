@@ -46,6 +46,7 @@
         <div class="trends-wrap">
             <div class="trends-case">
                 <article class="trends-item-first trends-item">
+                    <img src="img/trend1.jpg" alt="photo" class="trends-item-img">
                     <div class="trends-item-info">
                         <li class="trends-item-tags">
                             <ul class="trends-item-tag"><a class="trends-item-tag-link" href="#">Lifestyle</a></ul>
@@ -56,6 +57,7 @@
                     </div>
                 </article>
                 <article class="trends-item-second trends-item">
+                    <img src="img/trend2.jpg" alt="photo" class="trends-item-img">
                     <div class="trends-item-info">
                         <li class="trends-item-tags">
                             <ul class="trends-item-tag"><a class="trends-item-tag-link" href="#">food</a></ul>
@@ -68,6 +70,7 @@
             </div>
             <div class="trends-case">
                 <article class="trends-item-third trends-item">
+                    <img src="img/trend3.jpg" alt="photo" class="trends-item-img">
                     <div class="trends-item-info">
                         <li class="trends-item-tags">
                             <ul class="trends-item-tag"><a class="trends-item-tag-link" href="#">Lifestyle</a></ul>
@@ -79,6 +82,7 @@
                     </div>
                 </article>
                 <article class="trends-item-fourth trends-item">
+                    <img src="img/trend4.jpg" alt="photo" class="trends-item-img">
                     <div class="trends-item-info">
                         <li class="trends-item-tags">
                             <ul class="trends-item-tag"><a class="trends-item-tag-link" href="#">food</a></ul>
@@ -422,59 +426,62 @@
         <a href="#" class="footer-text"><span>Copyright © 2009–2019 City Blog LLC.</span></a>
     </footer>
     <div class="hidden">
-        <section class="popup">
-            <h2 class="popup-titel">Ваш ФИДБЕк</h2>
-            <form class="popup-form">
-                <div class="popup-form-how-often">
-                    <label class="popup-form-how-often-lebel">
-                        <p class="popup-form-how-often-text">
-                            Как часто вы заходите на сайт?
-                        </p>
-                        <select class="popup-form-how-often-select">
-                            <option selected>Почти каждый день</option>
-                            <option>Раз в несколько дней</option>
-                            <option>Раз в несколько недель</option>
-                            <option>Несколько раз в год</option>
-                        </select>
-                    </label>
-                </div>
-
-                <div class="popup-form-choice">
-                    <p class="popup-form-choice-text">
-                        Вы подписаны на e-mail рассылку?
-                    </p>
-                    <div class="popup-form-radio">
-                        <label class="popup-form-radio-lebel">
-                            <input class="popup-form-radio-input" type="radio" name="radio-group">
-                            <span class="popup-form-radio-text">Да</span>
+        <div class="popup-centerStyle">
+            <section class="popup">
+                <h2 class="popup-titel">Ваш ФИДБЕк</h2>
+                <form class="popup-form">
+                    <div class="popup-form-how-often">
+                        <label class="popup-form-how-often-lebel">
+                            <p class="popup-form-how-often-text">
+                                Как часто вы заходите на сайт?
+                            </p>
+                            <select class="popup-form-how-often-select">
+                                <option selected>Почти каждый день</option>
+                                <option>Раз в несколько дней</option>
+                                <option>Раз в несколько недель</option>
+                                <option>Несколько раз в год</option>
+                            </select>
                         </label>
                     </div>
-                    <div class="popup-form-radio">
-                        <label class="popup-form-radio-lebel">
-                            <input class="popup-form-radio-input" type="radio" name="radio-group">
-                            <span class="popup-form-radio-text">Нет</span>
+
+                    <div class="popup-form-choice">
+                        <p class="popup-form-choice-text">
+                            Вы подписаны на e-mail рассылку?
+                        </p>
+                        <div class="popup-form-radio">
+                            <label class="popup-form-radio-lebel">
+                                <input class="popup-form-radio-input" type="radio" name="radio-group">
+                                <span class="popup-form-radio-text">Да</span>
+                            </label>
+                        </div>
+                        <div class="popup-form-radio">
+                            <label class="popup-form-radio-lebel">
+                                <input class="popup-form-radio-input" type="radio" name="radio-group">
+                                <span class="popup-form-radio-text">Нет</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="popup-form-feedback">
+                        <label class="popup-form-feedback-lebel">
+                            <p class="popup-form-feedback-text">
+                                Расскажите, какой контент вы хотели бы видеть
+                                на нашем сайте?
+                            </p>
+                            <textarea class="popup-form-feedback-textarea"
+                                placeholder="Может, больше рецептов?"></textarea>
+                            <span class="hidden">Может, больше рецептов?</span>
                         </label>
                     </div>
-                </div>
 
-                <div class="popup-form-feedback">
-                    <label class="popup-form-feedback-lebel">
-                        <p class="popup-form-feedback-text">
-                            Расскажите, какой контент вы хотели бы видеть
-                            на нашем сайте?
-                        </p>
-                        <textarea class="popup-form-feedback-textarea" placeholder="Может, больше рецептов?"></textarea>
-                        <span class="hidden">Может, больше рецептов?</span>
-                    </label>
-                </div>
+                    <button class="popup-form-button" type="submit">
+                        отправить
+                    </button>
+                    <span class="hidden">отправить</span>
+                </form>
 
-                <button class="popup-form-button" type="submit">
-                    отправить
-                </button>
-                <span class="hidden">отправить</span>
-            </form>
-
-        </section>
+            </section>
+        </div>
     </div>
     <div class="overplay hidden"></div>
 </body>
