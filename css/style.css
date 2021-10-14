@@ -185,11 +185,6 @@
     margin-right: 0;
 }
 
-
-  /*.trends-item-first {
-    background-image: url(../img/trend1.jpg);
-  }*/
-
   .trends-item-first::after, .trends-item-second::after, .trends-item-third::after, .trends-item-fourth::after  {
       content: "";
       position: absolute;
@@ -219,6 +214,7 @@
     margin: 0px 21px 17px 21px;
     box-sizing: border-box;
     z-index: 3;
+    bottom: 0;
   }
   
   .trends-item-tags{
